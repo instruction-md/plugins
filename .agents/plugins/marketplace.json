@@ -1,0 +1,20 @@
+{
+  "name": "instruction-md",
+  "interface": {
+    "displayName": "instruction.md"
+  },
+  "plugins": [
+    {
+      "name": "instruction-md",
+      "source": {
+        "source": "local",
+        "path": "./instruction-md"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

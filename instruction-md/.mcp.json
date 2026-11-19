@@ -1,0 +1,7 @@
+{
+  "instruction-md": {
+    "type": "stdio",
+    "command": "npx",
+    "args": ["-y", "instruction.md", "mcp"]
+  }
+}

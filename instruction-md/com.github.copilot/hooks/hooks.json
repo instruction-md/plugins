@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "hooks": {
+    "sessionStart": [
+      { "type": "command", "bash": "npx -y instruction.md hook copilot --event sessionStart", "powershell": "npx -y instruction.md hook copilot --event sessionStart", "timeoutSec": 10 }
+    ],
+    "userPromptSubmitted": [
+      { "type": "command", "bash": "npx -y instruction.md hook copilot --event userPromptSubmitted", "powershell": "npx -y instruction.md hook copilot --event userPromptSubmitted", "timeoutSec": 5 }
+    ],
+    "postToolUse": [
+      { "type": "command", "bash": "npx -y instruction.md hook copilot --event postToolUse", "powershell": "npx -y instruction.md hook copilot --event postToolUse", "timeoutSec": 5 }
+    ],
+    "preCompact": [
+      { "type": "command", "bash": "npx -y instruction.md hook copilot --event preCompact", "powershell": "npx -y instruction.md hook copilot --event preCompact", "timeoutSec": 5 }
+    ]
+  }
+}

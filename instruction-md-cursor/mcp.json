@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "instruction-md": {
+      "command": "npx",
+      "args": ["-y", "instruction.md", "mcp"]
+    }
+  }
+}

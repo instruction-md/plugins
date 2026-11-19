@@ -1,0 +1,9 @@
+---
+description: This project's instructions from instruction.md, kept current in .instruction/current.md
+alwaysApply: true
+---
+If this project has `.instruction/current.md`, it holds the instructions this project follows from instruction.md (the
+version `.instruction/follow.json` names, kept current by the plugin's hooks). Read it before you start a task, and
+follow it. When a hook adds a newer version of it to the conversation, that version replaces the earlier one in full.
+Never edit `.instruction/current.md`: it is replaced at each version. To change the instruction, propose a change on
+instruction.md.

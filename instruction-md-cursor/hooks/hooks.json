@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "hooks": {
+    "sessionStart": [
+      { "command": "npx -y instruction.md hook cursor --event sessionStart", "timeout": 10 }
+    ],
+    "postToolUse": [
+      { "command": "npx -y instruction.md hook cursor --event postToolUse", "timeout": 5 }
+    ],
+    "preCompact": [
+      { "command": "npx -y instruction.md hook cursor --event preCompact", "timeout": 5 }
+    ]
+  }
+}

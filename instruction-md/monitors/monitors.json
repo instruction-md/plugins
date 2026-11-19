@@ -1,0 +1,8 @@
+[
+  {
+    "name": "instruction-updates",
+    "command": "npx -y instruction.md watch --lines",
+    "description": "New versions of the instructions this project follows (.instruction/follow.json)",
+    "when": "always"
+  }
+]

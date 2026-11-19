@@ -1,0 +1,14 @@
+{
+  "name": "instruction-md",
+  "version": "0.1.0",
+  "description": "Your agent follows its instructions from instruction.md: the version a project follows (.instruction/follow.json), kept current in .instruction/current.md, given to a conversation at its start and after a tool call once a new version is released.",
+  "author": {
+    "name": "instruction.md",
+    "email": "support@instruction.md",
+    "url": "https://instruction.md"
+  },
+  "homepage": "https://instruction.md/docs/connect/",
+  "repository": "https://github.com/instruction-md/plugins",
+  "license": "MIT",
+  "keywords": ["instructions", "system-prompt", "agents", "governance", "mcp"]
+}

@@ -1,0 +1,20 @@
+{
+  "description": "instruction.md: the instructions this project follows (.instruction/follow.json) when a session starts, and a new version at the next prompt once it is released. One file for both hosts: Claude Code and Codex each read a plugin's hooks/hooks.json, and `hook auto` tells which one runs it.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|clear|compact|fork",
+        "hooks": [
+          { "type": "command", "command": "npx -y instruction.md hook auto", "timeout": 10, "additionalContextLimit": 0 }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          { "type": "command", "command": "npx -y instruction.md hook auto", "timeout": 5, "additionalContextLimit": 0 }
+        ]
+      }
+    ]
+  }
+}

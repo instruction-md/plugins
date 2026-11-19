@@ -1,0 +1,17 @@
+{
+  "name": "instruction-md",
+  "version": "0.1.0",
+  "description": "Your agent follows its instructions from instruction.md: the version a project follows (.instruction/follow.json) at each session's start, and a new one at the next prompt once it is released, its signature checked.",
+  "author": {
+    "name": "instruction.md",
+    "email": "support@instruction.md",
+    "url": "https://instruction.md"
+  },
+  "homepage": "https://instruction.md/docs/claude-code/",
+  "repository": "https://github.com/instruction-md/plugins",
+  "license": "MIT",
+  "keywords": ["instructions", "system-prompt", "agents", "governance", "mcp"],
+  "network": {
+    "hosts": ["instruction.md", "registry.npmjs.org"]
+  }
+}

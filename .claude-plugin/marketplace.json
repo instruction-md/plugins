@@ -1,0 +1,24 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "instruction-md",
+  "description": "instruction.md's plugins: agents that follow their instructions from instruction.md, kept current as they are released.",
+  "owner": {
+    "name": "instruction.md",
+    "email": "support@instruction.md"
+  },
+  "plugins": [
+    {
+      "name": "instruction-md",
+      "description": "Your agent follows its instructions from instruction.md: the version a project follows at each session's start, and a new one at the next prompt once it is released, its signature checked.",
+      "version": "0.1.0",
+      "author": {
+        "name": "instruction.md",
+        "email": "support@instruction.md"
+      },
+      "source": "./instruction-md",
+      "category": "development",
+      "homepage": "https://instruction.md/docs/claude-code/",
+      "keywords": ["instructions", "system-prompt", "agents", "governance", "mcp"]
+    }
+  ]
+}
